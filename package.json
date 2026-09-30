@@ -2,7 +2,7 @@
   "name": "yearly-planner",
   "private": true,
   "scripts": {
-    "build": "npm --prefix client run build",
+    "build": "npm --prefix client install --include=dev && npm --prefix client run build",
     "start": "npm --prefix yearly-planner/backend start",
     "dev:client": "npm --prefix client run dev",
     "dev:server": "npm --prefix yearly-planner/backend run dev"
